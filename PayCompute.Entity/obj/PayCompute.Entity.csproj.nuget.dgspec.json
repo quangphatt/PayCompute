@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CourseProject\\ASP\\PayCompute.Entity\\PayCompute.Entity.csproj": {}
+    "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj": {}
   },
   "projects": {
-    "E:\\CourseProject\\ASP\\PayCompute.Entity\\PayCompute.Entity.csproj": {
+    "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CourseProject\\ASP\\PayCompute.Entity\\PayCompute.Entity.csproj",
+        "projectUniqueName": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj",
         "projectName": "PayCompute.Entity",
-        "projectPath": "E:\\CourseProject\\ASP\\PayCompute.Entity\\PayCompute.Entity.csproj",
+        "projectPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj",
         "packagesPath": "C:\\Users\\phatq\\.nuget\\packages\\",
-        "outputPath": "E:\\CourseProject\\ASP\\PayCompute.Entity\\obj\\",
+        "outputPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phatq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

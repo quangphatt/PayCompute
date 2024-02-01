@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2HI91T/bQ2yQs+r/643qfv4CzoHS2900F2fdr0GSejbOwbiVs3NYwsaxR2MP3J2wPzJeIToVljs4C9mC0b556Q==",
+  "dgSpecHash": "2IKiU7LxesfclF9NEG+gew9EgMZIc6+iuMRca4ndZqrgSHoscCm/bCoKKVN1vy5BvzUu02CtsvM7ayVHtv03HQ==",
   "success": true,
-  "projectFilePath": "E:\\CourseProject\\ASP\\PayCompute.Services\\PayCompute.Services.csproj",
+  "projectFilePath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Services\\PayCompute.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
