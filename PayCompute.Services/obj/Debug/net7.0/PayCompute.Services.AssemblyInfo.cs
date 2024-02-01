@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayCompute.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcf277035d4a33ef87f73ea893bd94d1d4585f24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faa15790c2602e43d626e137cea332c2df081aa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayCompute.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayCompute.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
