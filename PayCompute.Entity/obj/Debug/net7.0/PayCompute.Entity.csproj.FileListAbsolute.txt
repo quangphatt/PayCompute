@@ -1,0 +1,12 @@
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\bin\Debug\net7.0\PayCompute.Entity.deps.json
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\bin\Debug\net7.0\PayCompute.Entity.dll
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\bin\Debug\net7.0\PayCompute.Entity.pdb
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\PayCompute.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\PayCompute.Entity.AssemblyInfoInputs.cache
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\PayCompute.Entity.AssemblyInfo.cs
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\PayCompute.Entity.csproj.CoreCompileInputs.cache
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\PayCompute.Entity.sourcelink.json
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\PayCompute.Entity.dll
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\refint\PayCompute.Entity.dll
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\PayCompute.Entity.pdb
+E:\CourseProject\ASP\_PayCompute\PayCompute.Entity\obj\Debug\net7.0\ref\PayCompute.Entity.dll
