@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using PayCompute.Data;
+using PayCompute.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
