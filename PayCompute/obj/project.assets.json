@@ -1222,6 +1222,43 @@
             "rid": "win"
           }
         }
+      },
+      "PayCompute.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PayCompute.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PayCompute.Entity.dll": {}
+        }
+      },
+      "PayCompute.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PayCompute.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PayCompute.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PayCompute.Persistence.dll": {}
+        }
+      },
+      "PayCompute.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PayCompute.Entity": "1.0.0",
+          "PayCompute.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PayCompute.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PayCompute.Services.dll": {}
+        }
       }
     }
   },
@@ -3318,6 +3355,21 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PayCompute.Entity/1.0.0": {
+      "type": "project",
+      "path": "../PayCompute.Entity/PayCompute.Entity.csproj",
+      "msbuildProject": "../PayCompute.Entity/PayCompute.Entity.csproj"
+    },
+    "PayCompute.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../PayCompute.Persistence/PayCompute.Persistence.csproj",
+      "msbuildProject": "../PayCompute.Persistence/PayCompute.Persistence.csproj"
+    },
+    "PayCompute.Services/1.0.0": {
+      "type": "project",
+      "path": "../PayCompute.Services/PayCompute.Services.csproj",
+      "msbuildProject": "../PayCompute.Services/PayCompute.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3326,7 +3378,9 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.13",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.13"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
+      "PayCompute.Entity >= 1.0.0",
+      "PayCompute.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3335,11 +3389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CourseProject\\ASP\\PayCompute\\PayCompute.csproj",
+      "projectUniqueName": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute\\PayCompute.csproj",
       "projectName": "PayCompute",
-      "projectPath": "E:\\CourseProject\\ASP\\PayCompute\\PayCompute.csproj",
+      "projectPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute\\PayCompute.csproj",
       "packagesPath": "C:\\Users\\phatq\\.nuget\\packages\\",
-      "outputPath": "E:\\CourseProject\\ASP\\PayCompute\\obj\\",
+      "outputPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phatq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3355,7 +3409,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj": {
+              "projectPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj"
+            },
+            "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Services\\PayCompute.Services.csproj": {
+              "projectPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Services\\PayCompute.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

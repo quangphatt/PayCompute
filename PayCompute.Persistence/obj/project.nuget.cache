@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8SAuwgFVgA59WGlzxyZqbP+HXIkrsWWfmPjLRmFmUqH76usklJdlnv/6KJKVHuZEGI//6hiplHhFVC6YjrWdEA==",
+  "dgSpecHash": "s/4YGGMLkkhOde87eIiEimh9CU26PNSQpGLTTPooCvF4oWUpWbpu7Lun949dbtk6nby6SAIe88qAZsVfztd4Sg==",
   "success": true,
-  "projectFilePath": "E:\\CourseProject\\ASP\\PayCompute.Persistence\\PayCompute.Persistence.csproj",
+  "projectFilePath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Persistence\\PayCompute.Persistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

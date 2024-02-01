@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PayCompute.Entity\PayCompute.Entity.csproj" />
+    <ProjectReference Include="..\PayCompute.Persistence\PayCompute.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "PayCompute.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PayCompute.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PayCompute.Entity.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PayCompute.Entity/1.0.0": {
+      "type": "project",
+      "path": "../PayCompute.Entity/PayCompute.Entity.csproj",
+      "msbuildProject": "../PayCompute.Entity/PayCompute.Entity.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "PayCompute.Entity >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\phatq\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CourseProject\\ASP\\PayCompute.Persistence\\PayCompute.Persistence.csproj",
+      "projectUniqueName": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Persistence\\PayCompute.Persistence.csproj",
       "projectName": "PayCompute.Persistence",
-      "projectPath": "E:\\CourseProject\\ASP\\PayCompute.Persistence\\PayCompute.Persistence.csproj",
+      "projectPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Persistence\\PayCompute.Persistence.csproj",
       "packagesPath": "C:\\Users\\phatq\\.nuget\\packages\\",
-      "outputPath": "E:\\CourseProject\\ASP\\PayCompute.Persistence\\obj\\",
+      "outputPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phatq\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj": {
+              "projectPath": "E:\\CourseProject\\ASP\\_PayCompute\\PayCompute.Entity\\PayCompute.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -61,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
