@@ -1,14 +1,9 @@
 ﻿using PayCompute.Entity;
 using PayCompute.Persistence;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PayCompute.Services.Implementation
 {
-    internal class EmployeeService : IEmployeeService
+    public class EmployeeService : IEmployeeService
     {
         private readonly ApplicationDbContext _context;
 
