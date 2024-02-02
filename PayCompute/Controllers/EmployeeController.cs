@@ -163,7 +163,7 @@ namespace PayCompute.Controllers
         }
 
         [HttpGet]
-        public IActionResult Detail (int id)
+        public IActionResult Detail(int id)
         {
             var employee = _employeeService.GetById(id);
             if (employee == null)
@@ -193,6 +193,27 @@ namespace PayCompute.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var employee = _employeeService.GetById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            var model = new EmployeeDeleteViewModel()
+            {
+                Id = employee.Id,
+                FullName = employee.FullName,
+            };
+            return View(model);
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> Delete(EmployeeDeleteViewModel model)
+        {
+            await _employeeService.Delete(model.Id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
